@@ -1,0 +1,25 @@
+{
+  "name": "practica_api-1",
+  "version": "1.0.0",
+  "description": "project api web",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanTorresCalle/Practica_API.git"
+  },
+  "author": "Torres Calle Bryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryanTorresCalle/Practica_API/issues"
+  },
+  "homepage": "https://github.com/BryanTorresCalle/Practica_API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "pg": "^8.0.2"
+  }
+}
