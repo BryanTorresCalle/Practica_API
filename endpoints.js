@@ -1,8 +1,9 @@
 const express = require("express");
 const router = express.Router();
-const _Controller = require("./control");
+const _Controller = require("./controlDB");
 
 router.get("/pages", async (req, res) => {
+  
   let info = await req.body;
   _Controller
     .queryPages(info)

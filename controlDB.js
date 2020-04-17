@@ -24,7 +24,7 @@ let savePage = async (page) => {
 
 let queryPages = async (page) => {
   let _service = new ServicePg();
-  let sql = `SELECT (name, url, description) FROM public.pages`;
+  let sql = `SELECT id,name,url,description FROM public.pages`; 
   let res = await _service.executeSQL(sql);
   return res;
 };
